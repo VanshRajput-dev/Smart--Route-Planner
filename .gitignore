@@ -1,0 +1,45 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# =========================
+# Virtual Environments
+# =========================
+backend/route_env/
+backend/venv/
+.env
+
+# =========================
+# OS / Editor junk
+# =========================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# Map & Cache Data (DO NOT COMMIT)
+# =========================
+backend/data/cache/
+backend/cache/
+
+# =========================
+# Temporary / Test Files
+# =========================
+*.tmp
+*.bak
+
+# =========================
+# Node / Frontend (future-proof)
+# =========================
+frontend/node_modules/
+frontend/.expo/

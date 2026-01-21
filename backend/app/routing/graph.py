@@ -1,6 +1,9 @@
 import os
 import osmnx as ox
+ 
 
+ox.settings.use_cache = True
+ox.settings.cache_folder = "data/cache"
 DATA_DIR = "data/cache"
 GRAPH_FILE = os.path.join(DATA_DIR, "road_graph.graphml")
 
