@@ -29,6 +29,9 @@ Thumbs.db
 # =========================
 # Map & Cache Data (DO NOT COMMIT)
 # =========================
+# Data & cache
+data/
+backend/data/
 backend/data/cache/
 backend/cache/
 

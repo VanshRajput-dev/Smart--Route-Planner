@@ -1,4 +1,4 @@
-🏍️ Smart Route Planner (Backend)
+ 🏍️ Smart Route Planner (Backend)
 
 A backend system for a motorcycle-focused smart route planning application that prioritizes ride quality, safety, and rider experience over simple shortest-distance navigation.
 
@@ -227,4 +227,3 @@ Mobile app integration
 This backend is designed as a foundation, not a shortcut.
 
 The hard problems (data, routing, caching) are already solved.
-Everything from here builds on top of a solid core.
