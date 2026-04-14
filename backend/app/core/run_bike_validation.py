@@ -1,7 +1,7 @@
 import json
 from pathlib import Path
 
-from bike_validator import validate_bike
+from backend.app.core.bike_validator import validate_bike
 
 
 DATA_PATH = Path("../app/bikes/bikes.json")

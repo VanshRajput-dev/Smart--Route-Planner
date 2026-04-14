@@ -1,7 +1,17 @@
+# convert_graph.py
+
+import os
 import networkx as nx
 
-GRAPHML_PATH = r"C:\Smart--Route-Planner\data\cache\road_graph.graphml"
-PICKLE_PATH = r"C:\Smart--Route-Planner\data\cache\road_graph.pkl"
+BASE_DIR  = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+CACHE_DIR = os.path.join(BASE_DIR, "data", "cache")
+
+GRAPHML_PATH = os.path.join(CACHE_DIR, "road_graph.graphml")
+PICKLE_PATH  = os.path.join(CACHE_DIR, "road_graph.pkl")
+
+if not os.path.exists(GRAPHML_PATH):
+    print(f"GraphML file not found at: {GRAPHML_PATH}")
+    exit(1)
 
 print("Loading GraphML...")
 G = nx.read_graphml(GRAPHML_PATH)

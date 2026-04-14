@@ -1,8 +1,7 @@
 # routing/astar_smart.py
 
 import heapq
-from core.route_cost import compute_edge_cost
-
+from app.core.route_cost import compute_edge_cost
 
 def smart_astar(graph, start, goal, weights):
     pq = []

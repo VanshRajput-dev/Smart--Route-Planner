@@ -1,6 +1,6 @@
 # core/route_modes.py
 
-from core.route_cost import RouteWeights
+from app.core.route_cost import RouteWeights
 
 
 def get_mode_weights(mode: str):
